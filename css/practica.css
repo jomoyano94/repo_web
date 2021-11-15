@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+#contenedor{
+    width: 1000px;
+    height: 1200px;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+#header{
+    height: 15%;
+    background-color: aqua;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+#nav{
+    height: 10%;
+    background-color: blue;
+    margin: 1em;
+    border-radius: 1em;
+}
+#contenido{
+    height: 60%;
+    margin: 1em;
+}
+
+#footer{
+    height: 10%;
+    background-color: darkmagenta;
+    margin: 1em;
+    border-radius: 1em;
+}
+#seccion{
+    height: 100%;
+    width: 62%;
+    background-color: darkorange;
+    margin-left: 0.5em;
+    border-radius: 1em;
+    float: left;
+}
+#aside{
+    height: 100%;
+    width: 35%;
+    background-color: darkviolet;
+    margin-right: 0.5em;
+    border-radius: 1em;
+    float: right;
+}
+.articulo{
+    width: 95%;
+    height: 20%;
+    background-color: floralwhite;
+    margin: 1em;
+    border-radius: 1em;
+}
+h1{
+    color: black;
+    text-align: center;
+}

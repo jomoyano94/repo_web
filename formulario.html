@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+</html>
+<html lang="es">
+    <head>
+        <title>TECNOLOGIA A TU MANO</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <div id="contenedor">
+            <div id= "subtitulo">
+                <img src="imagenes/tecnologia_mano.jpg" height="700px" width="1000px">
+            </div>
+            <div id="titulo">
+                <h1>TECNOLOGIA A TU MANO</h1>
+            </div>
+            <div id="inf_documento">
+                <h2>Informacion personal</h2><br>
+                <label for="tipo de documento">Tipo de documento</label>
+                <select name="tipo_documento" id="tipo_documento">
+                    <option value="S">Seleccionar</option>
+                    <option value="TI">Tarjeta de identidad</option>
+                    <option value="CC">Cedula de ciudadania</option>
+                    <option value="CE">Cedula de extranjeria</option>
+                 </select>
+                 
+                 <label for="documento">Numero de documento</label>
+                 <input type="text" name="documento" id="documento">
+            </div>
+            <div id="inf_personal">
+                <label for="nombre">Nombres: </label>
+                <input type="text" name="nombre" id="nombre" maxlength="60">
+
+                <label for="apellido">Apellidos: </label>
+                <input type="text" name="apellido" id="apellido" maxlength="60">
+                
+                
+                <label for="genero">Genero</label>
+                <input type="radio" name="genero" id="genero" value="M">Masculino
+                <input type="radio" name="genero" id="genero" value="F">Femenino
+            </div>
+            <div id="seguridad">
+                <label for="correo">Correo electronico</label>
+                <input type="email" name="correo" id="correo" maxlength="50">
+                <label for="clave">Contraseña: </label>
+                <input type="text" name="clave" id="clave" maxlength="15">
+                
+                <label for="fecha">Fecha de nacimiento</label>
+                <input type="date" name="fecha" id="fecha"><br><br>
+            </div>
+            <div id="guardar">
+                <button>guardar</button>
+                <button>cancelar</button>
+            </div>
+            <div id="pie_pagina">
+                <h6>Direccion: xxxxxxxxx</h6>
+                <h6>Telefono: xxxxxxxxx</h6>
+                <h6>Facebook: xxxxxxxxx</h6>
+                <h6>Youtube: xxxxxxxxxxx</h6>
+                <h6></h6>
+            </div>
+        </div>
+
+    <link rel="stylesheet" href="css/formulario.css">
+    </body>
+</html>
